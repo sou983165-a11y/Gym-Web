@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+  <title>Gym Website</title>
+</head>
+
+<body class="bg-slate-950">
+
+  <!-- Main Wrapper -->
+  <div class="w-full min-h-screen bg-slate-500">
+
+    <!-- ================= NAVBAR ================= -->
+
+    <div class="navbar bg-slate-800 w-full shadow-sm px-3 sm:px-6 lg:px-8">
+
+      <div class="navbar-start">
+
+        <!-- Mobile Menu -->
+        <div class="dropdown">
+
+          <div tabindex="0"
+            role="button"
+            class="btn btn-ghost lg:hidden text-white">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"/>
+
+            </svg>
+
+          </div>
+
+          <ul tabindex="-1"
+            class="menu menu-sm dropdown-content
+            text-slate-800 bg-base-100 rounded-box
+            z-50 mt-3 w-36 p-2 shadow">
+
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Programs</a></li>
+            <li><a>Trainers</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Logo -->
+
+        <div class="relative ml-1 sm:ml-4 lg:ml-6">
+
+          <i class="fa-solid fa-eye
+          absolute top-1
+          text-red-600
+          text-2xl sm:text-3xl">
+          </i>
+
+          <a class="btn btn-ghost
+          text-white
+          text-xl sm:text-2xl lg:text-3xl
+          ml-7 sm:ml-8">
+
+            FIT
+            <span class="text-red-700">ZONE</span>
+
+          </a>
+
+          <p class="text-[9px] sm:text-[12px]
+          text-slate-300
+          ml-8 sm:ml-11">
+
+            STRONGER EVERYDAY
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Desktop Menu -->
+
+      <div class="navbar-center hidden lg:flex">
+
+        <ul class="menu menu-horizontal text-slate-100 px-1">
+
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Programs</a></li>
+          <li><a>Trainers</a></li>
+          <li><a>Pricing</a></li>
+          <li><a>Gallery</a></li>
+          <li><a>Contact</a></li>
+
+        </ul>
+
+      </div>
+
+
+      <div class="navbar-end">
+
+        <a class="btn btn-sm sm:btn-md
+        bg-red-700
+        hover:bg-red-600
+        text-white
+        border-0">
+
+          Join Now
+
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section
+      class="hero w-full
+      min-h-[620px]
+      sm:min-h-[680px]
+      lg:min-h-[700px]
+      bg-cover bg-center"
+      style="background-image: url('./herogym.png');">
+
+      <div class="hero-content
+      w-full max-w-7xl
+      mx-auto
+      px-4 sm:px-8 lg:px-12
+      py-12">
+
+        <div class="w-full lg:max-w-2xl">
+
+          <p class="text-slate-300 text-sm sm:text-base">
+
+            FIT BODY | FIT MIND | BETTER LIFE
+
+          </p>
+
+
+          <h1 class="text-4xl
+          sm:text-5xl
+          lg:text-6xl
+          font-bold
+          text-white mt-3">
+
+            DISCIPLINE
+
+          </h1>
+
+
+          <h3 class="text-2xl
+          sm:text-3xl
+          lg:text-4xl
+          ml-3 sm:ml-6
+          text-white">
+
+            TODAY FOR A
+
+          </h3>
+
+
+          <h1 class="text-4xl
+          sm:text-5xl
+          lg:text-6xl
+          font-bold
+          text-red-700">
+
+            STRONGER
+
+          </h1>
+
+
+          <h1 class="text-4xl
+          sm:text-5xl
+          lg:text-6xl
+          font-bold
+          text-white">
+
+            TOMORROW
+
+          </h1>
+
+
+          <p class="py-5 sm:py-6
+          text-sm sm:text-base
+          text-slate-300
+          max-w-xl">
+
+            Provident cupiditate voluptatem et in.
+            Quaerat fugiat ut assumenda excepturi
+            exercitationem quasi. In deleniti eaque
+            aut repudiandae et a id nisi.
+
+          </p>
+
+
+          <!-- Buttons -->
+
+          <div class="flex flex-wrap gap-3">
+
+            <button class="btn btn-error
+            bg-red-700
+            hover:bg-orange-600
+            text-white
+            border-0">
+
+              Get Started
+
+            </button>
+
+
+            <button class="btn btn-outline
+            text-white
+            border-white
+            hover:bg-white
+            hover:text-black">
+
+              Watch Now
+
+            </button>
+
+          </div>
+
+
+          <!-- Stats -->
+
+          <div class="grid
+          grid-cols-2
+          sm:grid-cols-4
+          w-full
+          max-w-2xl
+          mt-8 sm:mt-10
+          text-white
+          border border-white/20
+          bg-black/30
+          backdrop-blur-sm">
+
+
+            <div class="p-3 sm:p-4
+            border-r border-b
+            sm:border-b-0
+            border-white/20
+            text-center">
+
+              <h1 class="text-lg sm:text-2xl font-bold">
+                500+
+              </h1>
+
+              <p class="text-[10px] sm:text-sm">
+                Happy Members
+              </p>
+
+            </div>
+
+
+            <div class="p-3 sm:p-4
+            sm:border-r
+            border-b sm:border-b-0
+            border-white/20
+            text-center">
+
+              <h1 class="text-lg sm:text-2xl font-bold">
+                20+
+              </h1>
+
+              <p class="text-[10px] sm:text-sm">
+                Expert Trainers
+              </p>
+
+            </div>
+
+
+            <div class="p-3 sm:p-4
+            border-r
+            border-white/20
+            text-center">
+
+              <h1 class="text-lg sm:text-2xl font-bold">
+                5+
+              </h1>
+
+              <p class="text-[10px] sm:text-sm">
+                Year Experience
+              </p>
+
+            </div>
+
+
+            <div class="p-3 sm:p-4 text-center">
+
+              <h1 class="text-lg sm:text-2xl font-bold">
+                4.9*
+              </h1>
+
+              <p class="text-[10px] sm:text-sm">
+                Average Rating
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="w-full bg-slate-800">
+
+      <div class="w-full max-w-7xl
+      mx-auto
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-4">
+
+
+        <div class="min-h-[170px]
+        sm:min-h-[190px]
+        p-6
+        text-slate-100
+        text-center
+        border-b sm:border-r
+        border-slate-600">
+
+          <i class="fa-solid fa-dumbbell
+          text-3xl mt-3">
+          </i>
+
+          <h2 class="text-xl sm:text-2xl mt-3">
+            Modern Equipment
+          </h2>
+
+          <p class="text-xs mt-2">
+            World-class gym equipment
+          </p>
+
+          <p class="text-xs">
+            for the best workout
+          </p>
+
+        </div>
+
+
+        <div class="min-h-[170px]
+        sm:min-h-[190px]
+        p-6
+        text-slate-100
+        text-center
+        border-b lg:border-r
+        border-slate-600">
+
+          <i class="fa-solid fa-heart-crack
+          text-3xl mt-3">
+          </i>
+
+          <h2 class="text-xl sm:text-2xl mt-3">
+            Modern Equipment
+          </h2>
+
+          <p class="text-xs mt-2">
+            World-class gym equipment
+          </p>
+
+          <p class="text-xs">
+            for the best workout
+          </p>
+
+        </div>
+
+
+        <div class="min-h-[170px]
+        sm:min-h-[190px]
+        p-6
+        text-slate-100
+        text-center
+        border-b sm:border-r
+        border-slate-600">
+
+          <i class="fa-solid fa-circle-user
+          text-3xl mt-3">
+          </i>
+
+          <h2 class="text-xl sm:text-2xl mt-3">
+            Modern Equipment
+          </h2>
+
+          <p class="text-xs mt-2">
+            World-class gym equipment
+          </p>
+
+          <p class="text-xs">
+            for the best workout
+          </p>
+
+        </div>
+
+
+        <div class="min-h-[170px]
+        sm:min-h-[190px]
+        p-6
+        text-slate-100
+        text-center">
+
+          <i class="fa-solid fa-crosshairs
+          text-3xl mt-3">
+          </i>
+
+          <h2 class="text-xl sm:text-2xl mt-3">
+            Modern Equipment
+          </h2>
+
+          <p class="text-xs mt-2">
+            World-class gym equipment
+          </p>
+
+          <p class="text-xs">
+            for the best workout
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROGRAM HEADER ================= -->
+
+    <section class="w-full bg-slate-900">
+
+      <div class="w-full max-w-7xl
+      mx-auto
+      grid
+      grid-cols-1
+      lg:grid-cols-[1.2fr_1fr_260px]">
+
+
+        <div class="min-h-[170px]
+        lg:min-h-[140px]
+        p-6 sm:p-8
+        bg-slate-900
+        lg:rounded-tl-[32px]">
+
+          <h4 class="text-red-700 font-extrabold">
+            -OUR PROGRAMS
+          </h4>
+
+          <h1 class="font-semibold
+          text-white
+          text-xl sm:text-2xl
+          mt-1">
+
+            CHOOSE YOUR
+            <span class="text-red-700">
+              FITNESS GOAL
+            </span>
+
+          </h1>
+
+        </div>
+
+
+        <div class="min-h-[120px]
+        lg:min-h-[140px]
+        p-6
+        flex items-center
+        bg-slate-900">
+
+          <p class="text-slate-300
+          text-sm sm:text-base">
+
+            Whatever your goal is,
+            we have the right program
+            to help you achieve it.
+
+          </p>
+
+        </div>
+
+
+        <div class="min-h-[100px]
+        lg:min-h-[140px]
+        p-5
+        bg-slate-900
+        flex justify-start
+        lg:justify-center
+        items-center">
+
+          <button class="btn
+          bg-red-600
+          hover:bg-red-700
+          text-white
+          border-0
+          w-full sm:w-[180px]">
+
+            View All Programs >
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROGRAM CARDS ================= -->
+
+    <section class="w-full bg-black py-8">
+
+      <div class="w-full max-w-7xl
+      mx-auto
+      px-4 sm:px-6 lg:px-8
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-4
+      gap-5">
+
+
+        <!-- Card 1 -->
+
+        <div class="h-[250px]
+        bg-cover bg-center
+        relative
+        overflow-hidden
+        rounded-lg"
+        style="background-image:url('./workout1.png');">
+
+          <div class="absolute inset-0 bg-black/30"></div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-7
+          text-center">
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+            <h2 class="text-white text-lg font-semibold">
+              Muscle Building
+            </h2>
+
+            <p class="text-white text-xs font-thin">
+              Build strength and size
+            </p>
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+          </div>
+
+        </div>
+
+
+        <!-- Card 2 -->
+
+        <div class="h-[250px]
+        bg-cover bg-center
+        relative
+        overflow-hidden
+        rounded-lg"
+        style="background-image:url('./workout3.png');">
+
+          <div class="absolute inset-0 bg-black/30"></div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-7
+          text-center">
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+            <h2 class="text-white text-lg font-semibold">
+              Weight Loss
+            </h2>
+
+            <p class="text-white text-xs font-thin">
+              Burn fat, stay fit
+            </p>
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+          </div>
+
+        </div>
+
+
+        <!-- Card 3 -->
+
+        <div class="h-[250px]
+        bg-cover bg-center
+        relative
+        overflow-hidden
+        rounded-lg"
+        style="background-image:url('./workout2.png');">
+
+          <div class="absolute inset-0 bg-black/30"></div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-7
+          text-center">
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+            <h2 class="text-white text-lg font-semibold">
+              Strength Training
+            </h2>
+
+            <p class="text-white text-xs font-thin">
+              Be strong everyday
+            </p>
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+          </div>
+
+        </div>
+
+
+        <!-- Card 4 -->
+
+        <div class="h-[250px]
+        bg-cover bg-center
+        relative
+        overflow-hidden
+        rounded-lg"
+        style="background-image:url('./workout4.png');">
+
+          <div class="absolute inset-0 bg-black/30"></div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-7
+          text-center">
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+            <h2 class="text-white text-lg font-semibold">
+              Flexibility & Mobility
+            </h2>
+
+            <p class="text-white text-xs font-thin">
+              Move better, live better
+            </p>
+
+            <h1 class="text-red-700 text-2xl">
+              _______
+            </h1>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT US ================= -->
+
+    <section class="w-full bg-black py-8 sm:py-10">
+
+      <div class="w-full max-w-7xl
+      mx-auto
+      px-4 sm:px-6 lg:px-8
+      grid
+      grid-cols-1
+      lg:grid-cols-[1.2fr_1fr_0.7fr]
+      gap-8
+      items-center">
+
+
+        <!-- Image -->
+
+        <div class="w-full">
+
+          <img
+            class="w-full
+            h-[250px]
+            sm:h-[320px]
+            lg:h-[350px]
+            object-cover
+            rounded-lg"
+            src="./room.png"
+            alt="Gym interior">
+
+        </div>
+
+
+        <!-- About Content -->
+
+        <div class="w-full">
+
+          <h3 class="text-red-800
+          text-xl sm:text-2xl
+          font-bold">
+
+            ABOUT US
+
+          </h3>
+
+
+          <h1 class="text-2xl sm:text-3xl
+          font-extrabold
+          text-white mt-1">
+
+            MORE THAN A GYM,
+
+          </h1>
+
+
+          <h1 class="text-2xl sm:text-3xl
+          font-extrabold
+          text-white">
+
+            A
+            <span class="text-red-800">
+              LIFESTYLE
+            </span>
+
+          </h1>
+
+
+          <p class="mt-4
+          text-sm
+          text-slate-400
+          leading-6">
+
+            At Fitzone, we believe fitness is
+            not just about looking good,
+            it's about feeling good, living healthier,
+            and becoming a stronger version of yourself.
+
+            Our mission is to help you achieve your goals
+            with the right guidance, equipment
+            and community support.
+
+          </p>
+
+
+          <button class="btn
+          text-white
+          bg-red-700
+          hover:bg-red-800
+          border-0
+          mt-6">
+
+            Learn More >
+
+          </button>
+
+        </div>
+
+
+        <!-- Features -->
+
+        <div class="w-full
+        grid
+        grid-cols-1
+        sm:grid-cols-2
+        lg:grid-cols-1
+        gap-2">
+
+
+          <div class="flex
+          items-center
+          min-h-[70px]">
+
+            <div class="w-12 h-12
+            shrink-0
+            rounded-full
+            flex items-center
+            justify-center
+            text-xl
+            text-red-600
+            border border-red-600">
+
+              <i class="fa-solid fa-users"></i>
+
+            </div>
+
+            <p class="ml-4
+            text-slate-400
+            font-medium">
+
+              Certified Trainers
+
+            </p>
+
+          </div>
+
+
+          <div class="flex
+          items-center
+          min-h-[70px]">
+
+            <div class="w-12 h-12
+            shrink-0
+            rounded-full
+            flex items-center
+            justify-center
+            text-xl
+            text-red-600
+            border border-red-600">
+
+              <i class="fa-solid fa-tree"></i>
+
+            </div>
+
+            <p class="ml-4
+            text-slate-400
+            font-medium">
+
+              Clear & Safe Environment
+
+            </p>
+
+          </div>
+
+
+          <div class="flex
+          items-center
+          min-h-[70px]">
+
+            <div class="w-12 h-12
+            shrink-0
+            rounded-full
+            flex items-center
+            justify-center
+            text-xl
+            text-red-600
+            border border-red-600">
+
+              <i class="fa-solid fa-person-breastfeeding"></i>
+
+            </div>
+
+            <p class="ml-4
+            text-slate-400
+            font-medium">
+
+              Nutrition Guidance
+
+            </p>
+
+          </div>
+
+
+          <div class="flex
+          items-center
+          min-h-[70px]">
+
+            <div class="w-12 h-12
+            shrink-0
+            rounded-full
+            flex items-center
+            justify-center
+            text-xl
+            text-red-600
+            border border-red-600">
+
+              <i class="fa-regular fa-circle-user"></i>
+
+            </div>
+
+            <p class="ml-4
+            text-slate-400
+            font-medium">
+
+              Flexible Membership Plans
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= TRAINER HEADER ================= -->
+
+    <section class="w-full bg-slate-900">
+
+      <div class="w-full max-w-7xl
+      mx-auto
+      grid
+      grid-cols-1
+      lg:grid-cols-[1.2fr_1fr_260px]">
+
+
+        <div class="min-h-[170px]
+        lg:min-h-[140px]
+        p-6 sm:p-8
+        bg-slate-900
+        lg:rounded-tl-[32px]">
+
+          <h4 class="text-red-700
+          font-extrabold">
+
+            -OUR TRAINERS
+
+          </h4>
+
+
+          <h1 class="font-semibold
+          text-white
+          text-xl sm:text-3xl
+          mt-1">
+
+            MEET OUR
+            <span class="text-red-700">
+              EXPERTS
+            </span>
+
+          </h1>
+
+        </div>
+
+
+        <div class="min-h-[120px]
+        lg:min-h-[140px]
+        p-6
+        flex items-center
+        bg-slate-900">
+
+          <p class="text-slate-300
+          text-sm sm:text-base">
+
+            Train with the Best.
+            Our certified trainers
+            are here to guide you.
+
+          </p>
+
+        </div>
+
+
+        <div class="min-h-[100px]
+        lg:min-h-[140px]
+        p-5
+        bg-slate-900
+        flex justify-start
+        lg:justify-center
+        items-center">
+
+          <button class="btn
+          bg-red-600
+          hover:bg-red-700
+          text-white
+          border-0
+          w-full sm:w-[180px]">
+
+            View All Trainers >
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= TRAINERS ================= -->
+
+    <section class="w-full bg-black py-8">
+
+      <div class="w-full max-w-7xl
+      mx-auto
+      px-4 sm:px-6 lg:px-8
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-4
+      gap-5">
+
+
+        <!-- Trainer 1 -->
+
+        <div class="h-[280px]
+        bg-cover bg-center
+        relative
+        rounded-lg
+        overflow-hidden"
+        style="background-image:url('./man.png');">
+
+          <div class="absolute inset-0
+          bg-gradient-to-t
+          from-black/80
+          via-black/10
+          to-transparent">
+          </div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-4
+          text-center">
+
+            <h2 class="text-slate-100 text-xl">
+              Rahul Sharma
+            </h2>
+
+            <p class="text-sm text-slate-300">
+              Strength & Conditioning
+            </p>
+
+            <div class="flex
+            justify-center
+            gap-2 mt-2">
+
+              <a href="#">
+                <i class="fa-brands fa-square-facebook
+                text-2xl
+                text-red-300
+                border border-red-500
+                rounded-lg">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-instagram
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Trainer 2 -->
+
+        <div class="h-[280px]
+        bg-cover bg-center
+        relative
+        rounded-lg
+        overflow-hidden"
+        style="background-image:url('./man.png');">
+
+          <div class="absolute inset-0
+          bg-gradient-to-t
+          from-black/80
+          via-black/10
+          to-transparent">
+          </div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-4
+          text-center">
+
+            <h2 class="text-slate-100 text-xl">
+              Rahul Sharma
+            </h2>
+
+            <p class="text-sm text-slate-300">
+              Strength & Conditioning
+            </p>
+
+            <div class="flex justify-center gap-2 mt-2">
+
+              <a href="#">
+                <i class="fa-brands fa-square-facebook
+                text-2xl
+                text-red-300
+                border border-red-500
+                rounded-lg">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-instagram
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Trainer 3 -->
+
+        <div class="h-[280px]
+        bg-cover bg-center
+        relative
+        rounded-lg
+        overflow-hidden"
+        style="background-image:url('./man.png');">
+
+          <div class="absolute inset-0
+          bg-gradient-to-t
+          from-black/80
+          via-black/10
+          to-transparent">
+          </div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-4
+          text-center">
+
+            <h2 class="text-slate-100 text-xl">
+              Rahul Sharma
+            </h2>
+
+            <p class="text-sm text-slate-300">
+              Strength & Conditioning
+            </p>
+
+            <div class="flex justify-center gap-2 mt-2">
+
+              <a href="#">
+                <i class="fa-brands fa-square-facebook
+                text-2xl
+                text-red-300
+                border border-red-500
+                rounded-lg">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-instagram
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Trainer 4 -->
+
+        <div class="h-[280px]
+        bg-cover bg-center
+        relative
+        rounded-lg
+        overflow-hidden"
+        style="background-image:url('./man.png');">
+
+          <div class="absolute inset-0
+          bg-gradient-to-t
+          from-black/80
+          via-black/10
+          to-transparent">
+          </div>
+
+          <div class="absolute
+          inset-x-0
+          bottom-4
+          text-center">
+
+            <h2 class="text-slate-100 text-xl">
+              Rahul Sharma
+            </h2>
+
+            <p class="text-sm text-slate-300">
+              Strength & Conditioning
+            </p>
+
+            <div class="flex justify-center gap-2 mt-2">
+
+              <a href="#">
+                <i class="fa-brands fa-square-facebook
+                text-2xl
+                text-red-300
+                border border-red-500
+                rounded-lg">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-instagram
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in
+                text-2xl
+                border border-slate-200
+                rounded-lg
+                bg-slate-400">
+                </i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+</body>
+</html>
